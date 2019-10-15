@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: body-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  height: 90%;
+}
+
+.message-holder {
+  color: white;
+  font-size: 3em;
+  font-family: system-ui;
+  animation-name: message-animation;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes message-animation {
+  0%   { text-shadow: 0 0 5px black, 0 0 5px #ffffff; }
+  25%  { text-shadow: 0 0 5px #1A1A1A, 0 0 5px #ffffff; }
+  50%  { text-shadow: 0 0 5px white, 0 0 5px #ffffff; }
+  75%  { text-shadow: 0 0 5px #1A1A1A, 0 0 5px #ffffff; }
+  100% { text-shadow: 0 0 5px black, 0 0 5px #ffffff; }
+}
+
+@keyframes body-animation {
+  0%   { background: #002535; }
+  50%  { background: #141414; }
+  100% { background: #002535; }
+}
