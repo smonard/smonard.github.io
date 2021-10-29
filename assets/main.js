@@ -1,7 +1,7 @@
 const messages = [
   "Espero que estés en el mejor día de tu vida", 
   "I hope you are having the best day of your life",
-  "Надеюсь, у тебя лучший день в вашей жизни",
+  "Надеюсь, у тебя лучший день в твоей жизни",
   "Espero que você esteja no melhor dia da sua vida",
   "J'espère que tu as le meilleur jour de ta vie"
 ];
