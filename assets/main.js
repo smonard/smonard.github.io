@@ -15,5 +15,5 @@ function switchMessage() {
 
 function playMessages() {
   switchMessage();
-  setInterval(switchMessage, 3400);
+  setInterval(switchMessage, 3500);
 }
